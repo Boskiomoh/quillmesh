@@ -1,0 +1,126 @@
+{
+  "baseUrl": "http://localhost:3300",
+  "source": "Figma file: Synkra - Enterprise SaaS Website Template (UI Kit Available) by Inagata Technosmith and Dicky Bhismawan H, CC BY 4.0 (frames pulled 29 Oct 2026)",
+  "out": "evidence",
+  "scale": 1,
+  "threshold": 0.1,
+  "tolerancePx": 1,
+  "bandHeight": 400,
+  "pages": [
+    {
+      "name": "home-desktop",
+      "path": "/",
+      "reference": "design/figma/frames/-design-screen-synkra-landing.png",
+      "hide": ["[aria-label='Cookie consent']"],
+      "note": "Cookie bar hidden: it is a sticky bar at the bottom of the screen; the design draws it after the footer."
+    },
+    {
+      "name": "home-phone",
+      "path": "/",
+      "reference": "design/figma/frames/-design-screen-synkra-landing-2.png",
+      "hide": ["[aria-label='Cookie consent']"],
+      "note": "Cookie bar hidden: it is a sticky bar at the bottom of the screen; the design draws it after the footer."
+    },
+    {
+      "name": "features-desktop",
+      "path": "/features",
+      "reference": "design/figma/frames/-design-screen-synkra-features.png",
+      "hide": ["[aria-label='Cookie consent']"],
+      "note": "Cookie bar hidden: it is a sticky bar at the bottom of the screen; the design draws it after the footer."
+    },
+    {
+      "name": "features-phone",
+      "path": "/features",
+      "reference": "design/figma/frames/-design-screen-synkra-features-2.png",
+      "hide": ["[aria-label='Cookie consent']"],
+      "note": "Cookie bar hidden: it is a sticky bar at the bottom of the screen; the design draws it after the footer."
+    },
+    {
+      "name": "about-desktop",
+      "path": "/about",
+      "reference": "design/figma/frames/-design-screen-synkra-about.png",
+      "hide": ["[aria-label='Cookie consent']"],
+      "note": "Cookie bar hidden: it is a sticky bar at the bottom of the screen; the design draws it after the footer."
+    },
+    {
+      "name": "about-phone",
+      "path": "/about",
+      "reference": "design/figma/frames/-design-screen-synkra-about-2.png",
+      "hide": ["[aria-label='Cookie consent']"],
+      "note": "Cookie bar hidden: it is a sticky bar at the bottom of the screen; the design draws it after the footer."
+    },
+    {
+      "name": "blog-desktop",
+      "path": "/blog",
+      "reference": "design/figma/frames/-design-screen-synkra-blog.png",
+      "hide": ["[aria-label='Cookie consent']"],
+      "note": "Cookie bar hidden: it is a sticky bar at the bottom of the screen; the design draws it after the footer."
+    },
+    {
+      "name": "blog-phone",
+      "path": "/blog",
+      "reference": "design/figma/frames/-design-screen-synkra-blog-2.png",
+      "hide": ["[aria-label='Cookie consent']"],
+      "note": "Cookie bar hidden: it is a sticky bar at the bottom of the screen; the design draws it after the footer."
+    },
+    {
+      "name": "blog-detail-desktop",
+      "path": "/blog/the-future-of-digital-infrastructure-is-intentional",
+      "reference": "design/figma/frames/-design-screen-synkra-blog-detail.png",
+      "hide": ["[aria-label='Cookie consent']"],
+      "note": "Cookie bar hidden: it is a sticky bar at the bottom of the screen; the design draws it after the footer."
+    },
+    {
+      "name": "blog-detail-phone",
+      "path": "/blog/the-future-of-digital-infrastructure-is-intentional",
+      "reference": "design/figma/frames/-design-screen-synkra-blog-detail-2.png",
+      "hide": ["[aria-label='Cookie consent']"],
+      "note": "Cookie bar hidden: it is a sticky bar at the bottom of the screen; the design draws it after the footer."
+    },
+    {
+      "name": "changelog-desktop",
+      "path": "/changelog",
+      "reference": "design/figma/frames/-design-screen-synkra-changelog.png",
+      "hide": ["[aria-label='Cookie consent']"],
+      "note": "Cookie bar hidden: it is a sticky bar at the bottom of the screen; the design draws it after the footer."
+    },
+    {
+      "name": "changelog-phone",
+      "path": "/changelog",
+      "reference": "design/figma/frames/-design-screen-synkra-changelog-2.png",
+      "hide": ["[aria-label='Cookie consent']"],
+      "note": "Cookie bar hidden: it is a sticky bar at the bottom of the screen; the design draws it after the footer."
+    },
+    {
+      "name": "pricing-desktop",
+      "path": "/pricing",
+      "reference": "design/figma/frames/-design-screen-synkra-pricing.png",
+      "hide": ["[aria-label='Cookie consent']"],
+      "note": "Cookie bar hidden: it is a sticky bar at the bottom of the screen; the design draws it after the footer."
+    },
+    {
+      "name": "pricing-phone",
+      "path": "/pricing",
+      "reference": "design/figma/frames/-design-screen-synkra-pricing-2.png",
+      "hide": ["[aria-label='Cookie consent']"],
+      "note": "Cookie bar hidden: it is a sticky bar at the bottom of the screen; the design draws it after the footer."
+    }
+  ],
+  "sweep": {
+    "paths": [
+      "/",
+      "/features",
+      "/about",
+      "/pricing",
+      "/blog",
+      "/changelog",
+      "/demo",
+      "/lp/automate",
+      "/components",
+      "/case-study"
+    ],
+    "widths": [320, 375, 390, 402, 430, 768, 1024, 1280, 1440, 1920]
+  },
+  "axe": true,
+  "minMatch": null
+}

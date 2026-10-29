@@ -1,0 +1,2089 @@
+{
+  "generatedAt": "2026-10-29T15:57:53.265Z",
+  "baseUrl": "http://localhost:3300",
+  "commit": null,
+  "source": "Figma file: Synkra - Enterprise SaaS Website Template (UI Kit Available) by Inagata Technosmith and Dicky Bhismawan H, CC BY 4.0 (frames pulled 29 Oct 2026)",
+  "method": {
+    "threshold": 0.1,
+    "tolerancePx": 1,
+    "bandHeight": 400,
+    "engine": "Chromium via Playwright"
+  },
+  "pages": [
+    {
+      "name": "home-desktop",
+      "path": "/",
+      "width": 1280,
+      "scale": 1,
+      "designHeight": 5959,
+      "buildHeight": 6076,
+      "comparedHeight": 6076,
+      "truncated": false,
+      "match": {
+        "strict": 82.68,
+        "tolerant": 89.01
+      },
+      "bands": [
+        {
+          "from": 0,
+          "to": 400,
+          "tolerant": 86.02
+        },
+        {
+          "from": 400,
+          "to": 800,
+          "tolerant": 85.52
+        },
+        {
+          "from": 800,
+          "to": 1200,
+          "tolerant": 97.68
+        },
+        {
+          "from": 1200,
+          "to": 1600,
+          "tolerant": 92.99
+        },
+        {
+          "from": 1600,
+          "to": 2000,
+          "tolerant": 81.41
+        },
+        {
+          "from": 2000,
+          "to": 2400,
+          "tolerant": 91.01
+        },
+        {
+          "from": 2400,
+          "to": 2800,
+          "tolerant": 96.62
+        },
+        {
+          "from": 2800,
+          "to": 3200,
+          "tolerant": 96.53
+        },
+        {
+          "from": 3200,
+          "to": 3600,
+          "tolerant": 97.83
+        },
+        {
+          "from": 3600,
+          "to": 4000,
+          "tolerant": 94.86
+        },
+        {
+          "from": 4000,
+          "to": 4400,
+          "tolerant": 98.77
+        },
+        {
+          "from": 4400,
+          "to": 4800,
+          "tolerant": 98.52
+        },
+        {
+          "from": 4800,
+          "to": 5200,
+          "tolerant": 99.37
+        },
+        {
+          "from": 5200,
+          "to": 5600,
+          "tolerant": 83.01
+        },
+        {
+          "from": 5600,
+          "to": 6000,
+          "tolerant": 51.98
+        },
+        {
+          "from": 6000,
+          "to": 6076,
+          "tolerant": 0
+        }
+      ],
+      "ignored": [],
+      "overflowPx": 0,
+      "axe": [],
+      "note": "Cookie bar hidden: it is a sticky bar at the bottom of the screen; the design draws it after the footer."
+    },
+    {
+      "name": "home-phone",
+      "path": "/",
+      "width": 402,
+      "scale": 1,
+      "designHeight": 6623,
+      "buildHeight": 6864,
+      "comparedHeight": 6864,
+      "truncated": false,
+      "match": {
+        "strict": 71.67,
+        "tolerant": 80.31
+      },
+      "bands": [
+        {
+          "from": 0,
+          "to": 400,
+          "tolerant": 98.32
+        },
+        {
+          "from": 400,
+          "to": 800,
+          "tolerant": 96.44
+        },
+        {
+          "from": 800,
+          "to": 1200,
+          "tolerant": 98.45
+        },
+        {
+          "from": 1200,
+          "to": 1600,
+          "tolerant": 90.46
+        },
+        {
+          "from": 1600,
+          "to": 2000,
+          "tolerant": 80.9
+        },
+        {
+          "from": 2000,
+          "to": 2400,
+          "tolerant": 61.59
+        },
+        {
+          "from": 2400,
+          "to": 2800,
+          "tolerant": 61.99
+        },
+        {
+          "from": 2800,
+          "to": 3200,
+          "tolerant": 68.74
+        },
+        {
+          "from": 3200,
+          "to": 3600,
+          "tolerant": 97.94
+        },
+        {
+          "from": 3600,
+          "to": 4000,
+          "tolerant": 86.01
+        },
+        {
+          "from": 4000,
+          "to": 4400,
+          "tolerant": 98.37
+        },
+        {
+          "from": 4400,
+          "to": 4800,
+          "tolerant": 97.77
+        },
+        {
+          "from": 4800,
+          "to": 5200,
+          "tolerant": 97.94
+        },
+        {
+          "from": 5200,
+          "to": 5600,
+          "tolerant": 90.89
+        },
+        {
+          "from": 5600,
+          "to": 6000,
+          "tolerant": 58.12
+        },
+        {
+          "from": 6000,
+          "to": 6400,
+          "tolerant": 68.34
+        },
+        {
+          "from": 6400,
+          "to": 6800,
+          "tolerant": 25.86
+        },
+        {
+          "from": 6800,
+          "to": 6864,
+          "tolerant": 0
+        }
+      ],
+      "ignored": [],
+      "overflowPx": 0,
+      "axe": [],
+      "note": "Cookie bar hidden: it is a sticky bar at the bottom of the screen; the design draws it after the footer."
+    },
+    {
+      "name": "features-desktop",
+      "path": "/features",
+      "width": 1280,
+      "scale": 1,
+      "designHeight": 4374,
+      "buildHeight": 4396,
+      "comparedHeight": 4396,
+      "truncated": false,
+      "match": {
+        "strict": 82.26,
+        "tolerant": 88.92
+      },
+      "bands": [
+        {
+          "from": 0,
+          "to": 400,
+          "tolerant": 98.37
+        },
+        {
+          "from": 400,
+          "to": 800,
+          "tolerant": 90.81
+        },
+        {
+          "from": 800,
+          "to": 1200,
+          "tolerant": 90.4
+        },
+        {
+          "from": 1200,
+          "to": 1600,
+          "tolerant": 90.97
+        },
+        {
+          "from": 1600,
+          "to": 2000,
+          "tolerant": 86.99
+        },
+        {
+          "from": 2000,
+          "to": 2400,
+          "tolerant": 75.38
+        },
+        {
+          "from": 2400,
+          "to": 2800,
+          "tolerant": 94.1
+        },
+        {
+          "from": 2800,
+          "to": 3200,
+          "tolerant": 91.06
+        },
+        {
+          "from": 3200,
+          "to": 3600,
+          "tolerant": 85.37
+        },
+        {
+          "from": 3600,
+          "to": 4000,
+          "tolerant": 98.13
+        },
+        {
+          "from": 4000,
+          "to": 4396,
+          "tolerant": 76.38
+        }
+      ],
+      "ignored": [],
+      "overflowPx": 0,
+      "axe": [],
+      "note": "Cookie bar hidden: it is a sticky bar at the bottom of the screen; the design draws it after the footer."
+    },
+    {
+      "name": "features-phone",
+      "path": "/features",
+      "width": 402,
+      "scale": 1,
+      "designHeight": 5911,
+      "buildHeight": 6203,
+      "comparedHeight": 6203,
+      "truncated": false,
+      "match": {
+        "strict": 65.39,
+        "tolerant": 75.17
+      },
+      "bands": [
+        {
+          "from": 0,
+          "to": 400,
+          "tolerant": 98.87
+        },
+        {
+          "from": 400,
+          "to": 800,
+          "tolerant": 80.85
+        },
+        {
+          "from": 800,
+          "to": 1200,
+          "tolerant": 75.77
+        },
+        {
+          "from": 1200,
+          "to": 1600,
+          "tolerant": 97.63
+        },
+        {
+          "from": 1600,
+          "to": 2000,
+          "tolerant": 89.49
+        },
+        {
+          "from": 2000,
+          "to": 2400,
+          "tolerant": 73.29
+        },
+        {
+          "from": 2400,
+          "to": 2800,
+          "tolerant": 92.54
+        },
+        {
+          "from": 2800,
+          "to": 3200,
+          "tolerant": 62.88
+        },
+        {
+          "from": 3200,
+          "to": 3600,
+          "tolerant": 82.78
+        },
+        {
+          "from": 3600,
+          "to": 4000,
+          "tolerant": 62.06
+        },
+        {
+          "from": 4000,
+          "to": 4400,
+          "tolerant": 79.39
+        },
+        {
+          "from": 4400,
+          "to": 4800,
+          "tolerant": 98.83
+        },
+        {
+          "from": 4800,
+          "to": 5200,
+          "tolerant": 64.44
+        },
+        {
+          "from": 5200,
+          "to": 5600,
+          "tolerant": 59.42
+        },
+        {
+          "from": 5600,
+          "to": 6000,
+          "tolerant": 47.46
+        },
+        {
+          "from": 6000,
+          "to": 6203,
+          "tolerant": 0
+        }
+      ],
+      "ignored": [],
+      "overflowPx": 0,
+      "axe": [],
+      "note": "Cookie bar hidden: it is a sticky bar at the bottom of the screen; the design draws it after the footer."
+    },
+    {
+      "name": "about-desktop",
+      "path": "/about",
+      "width": 1280,
+      "scale": 1,
+      "designHeight": 3920,
+      "buildHeight": 3956,
+      "comparedHeight": 3956,
+      "truncated": false,
+      "match": {
+        "strict": 74.49,
+        "tolerant": 78.49
+      },
+      "bands": [
+        {
+          "from": 0,
+          "to": 400,
+          "tolerant": 97.01
+        },
+        {
+          "from": 400,
+          "to": 800,
+          "tolerant": 37.82
+        },
+        {
+          "from": 800,
+          "to": 1200,
+          "tolerant": 85.77
+        },
+        {
+          "from": 1200,
+          "to": 1600,
+          "tolerant": 99.24
+        },
+        {
+          "from": 1600,
+          "to": 2000,
+          "tolerant": 98.92
+        },
+        {
+          "from": 2000,
+          "to": 2400,
+          "tolerant": 72.36
+        },
+        {
+          "from": 2400,
+          "to": 2800,
+          "tolerant": 47.06
+        },
+        {
+          "from": 2800,
+          "to": 3200,
+          "tolerant": 77.73
+        },
+        {
+          "from": 3200,
+          "to": 3600,
+          "tolerant": 98.12
+        },
+        {
+          "from": 3600,
+          "to": 3956,
+          "tolerant": 69.89
+        }
+      ],
+      "ignored": [],
+      "overflowPx": 0,
+      "axe": [],
+      "note": "Cookie bar hidden: it is a sticky bar at the bottom of the screen; the design draws it after the footer."
+    },
+    {
+      "name": "about-phone",
+      "path": "/about",
+      "width": 563,
+      "scale": 1,
+      "designHeight": 5647,
+      "buildHeight": 5165,
+      "comparedHeight": 5647,
+      "truncated": false,
+      "match": {
+        "strict": 50.02,
+        "tolerant": 54.9
+      },
+      "bands": [
+        {
+          "from": 0,
+          "to": 400,
+          "tolerant": 85.23
+        },
+        {
+          "from": 400,
+          "to": 800,
+          "tolerant": 45.43
+        },
+        {
+          "from": 800,
+          "to": 1200,
+          "tolerant": 43.48
+        },
+        {
+          "from": 1200,
+          "to": 1600,
+          "tolerant": 98.06
+        },
+        {
+          "from": 1600,
+          "to": 2000,
+          "tolerant": 51.92
+        },
+        {
+          "from": 2000,
+          "to": 2400,
+          "tolerant": 65.49
+        },
+        {
+          "from": 2400,
+          "to": 2800,
+          "tolerant": 92.03
+        },
+        {
+          "from": 2800,
+          "to": 3200,
+          "tolerant": 77.91
+        },
+        {
+          "from": 3200,
+          "to": 3600,
+          "tolerant": 57
+        },
+        {
+          "from": 3600,
+          "to": 4000,
+          "tolerant": 57.08
+        },
+        {
+          "from": 4000,
+          "to": 4400,
+          "tolerant": 24.74
+        },
+        {
+          "from": 4400,
+          "to": 4800,
+          "tolerant": 31.75
+        },
+        {
+          "from": 4800,
+          "to": 5200,
+          "tolerant": 45
+        },
+        {
+          "from": 5200,
+          "to": 5600,
+          "tolerant": 0
+        },
+        {
+          "from": 5600,
+          "to": 5647,
+          "tolerant": 0
+        }
+      ],
+      "ignored": [],
+      "overflowPx": 0,
+      "axe": [],
+      "note": "Cookie bar hidden: it is a sticky bar at the bottom of the screen; the design draws it after the footer."
+    },
+    {
+      "name": "blog-desktop",
+      "path": "/blog",
+      "width": 1280,
+      "scale": 1,
+      "designHeight": 3000,
+      "buildHeight": 2957,
+      "comparedHeight": 3000,
+      "truncated": false,
+      "match": {
+        "strict": 73.49,
+        "tolerant": 79.69
+      },
+      "bands": [
+        {
+          "from": 0,
+          "to": 400,
+          "tolerant": 98.24
+        },
+        {
+          "from": 400,
+          "to": 800,
+          "tolerant": 64.23
+        },
+        {
+          "from": 800,
+          "to": 1200,
+          "tolerant": 66.58
+        },
+        {
+          "from": 1200,
+          "to": 1600,
+          "tolerant": 94.88
+        },
+        {
+          "from": 1600,
+          "to": 2000,
+          "tolerant": 74.93
+        },
+        {
+          "from": 2000,
+          "to": 2400,
+          "tolerant": 82.56
+        },
+        {
+          "from": 2400,
+          "to": 2800,
+          "tolerant": 84.2
+        },
+        {
+          "from": 2800,
+          "to": 3000,
+          "tolerant": 64.09
+        }
+      ],
+      "ignored": [],
+      "overflowPx": 0,
+      "axe": [],
+      "note": "Cookie bar hidden: it is a sticky bar at the bottom of the screen; the design draws it after the footer."
+    },
+    {
+      "name": "blog-phone",
+      "path": "/blog",
+      "width": 556,
+      "scale": 1,
+      "designHeight": 4917,
+      "buildHeight": 4590,
+      "comparedHeight": 4917,
+      "truncated": false,
+      "match": {
+        "strict": 47.43,
+        "tolerant": 53.26
+      },
+      "bands": [
+        {
+          "from": 0,
+          "to": 400,
+          "tolerant": 85.96
+        },
+        {
+          "from": 400,
+          "to": 800,
+          "tolerant": 45.14
+        },
+        {
+          "from": 800,
+          "to": 1200,
+          "tolerant": 74.56
+        },
+        {
+          "from": 1200,
+          "to": 1600,
+          "tolerant": 70.6
+        },
+        {
+          "from": 1600,
+          "to": 2000,
+          "tolerant": 54.02
+        },
+        {
+          "from": 2000,
+          "to": 2400,
+          "tolerant": 57.31
+        },
+        {
+          "from": 2400,
+          "to": 2800,
+          "tolerant": 61.09
+        },
+        {
+          "from": 2800,
+          "to": 3200,
+          "tolerant": 38.49
+        },
+        {
+          "from": 3200,
+          "to": 3600,
+          "tolerant": 34.49
+        },
+        {
+          "from": 3600,
+          "to": 4000,
+          "tolerant": 42.55
+        },
+        {
+          "from": 4000,
+          "to": 4400,
+          "tolerant": 42.97
+        },
+        {
+          "from": 4400,
+          "to": 4800,
+          "tolerant": 47.47
+        },
+        {
+          "from": 4800,
+          "to": 4917,
+          "tolerant": 0
+        }
+      ],
+      "ignored": [],
+      "overflowPx": 0,
+      "axe": [],
+      "note": "Cookie bar hidden: it is a sticky bar at the bottom of the screen; the design draws it after the footer."
+    },
+    {
+      "name": "blog-detail-desktop",
+      "path": "/blog/the-future-of-digital-infrastructure-is-intentional",
+      "width": 1280,
+      "scale": 1,
+      "designHeight": 3615,
+      "buildHeight": 3423,
+      "comparedHeight": 3615,
+      "truncated": false,
+      "match": {
+        "strict": 72.26,
+        "tolerant": 78.04
+      },
+      "bands": [
+        {
+          "from": 0,
+          "to": 400,
+          "tolerant": 93.85
+        },
+        {
+          "from": 400,
+          "to": 800,
+          "tolerant": 59.4
+        },
+        {
+          "from": 800,
+          "to": 1200,
+          "tolerant": 97.1
+        },
+        {
+          "from": 1200,
+          "to": 1600,
+          "tolerant": 98.98
+        },
+        {
+          "from": 1600,
+          "to": 2000,
+          "tolerant": 94.18
+        },
+        {
+          "from": 2000,
+          "to": 2400,
+          "tolerant": 65.57
+        },
+        {
+          "from": 2400,
+          "to": 2800,
+          "tolerant": 65.76
+        },
+        {
+          "from": 2800,
+          "to": 3200,
+          "tolerant": 74.95
+        },
+        {
+          "from": 3200,
+          "to": 3600,
+          "tolerant": 55.48
+        },
+        {
+          "from": 3600,
+          "to": 3615,
+          "tolerant": 0
+        }
+      ],
+      "ignored": [],
+      "overflowPx": 0,
+      "axe": [],
+      "note": "Cookie bar hidden: it is a sticky bar at the bottom of the screen; the design draws it after the footer."
+    },
+    {
+      "name": "blog-detail-phone",
+      "path": "/blog/the-future-of-digital-infrastructure-is-intentional",
+      "width": 402,
+      "scale": 1,
+      "designHeight": 5057,
+      "buildHeight": 4627,
+      "comparedHeight": 5057,
+      "truncated": false,
+      "match": {
+        "strict": 55.73,
+        "tolerant": 65.41
+      },
+      "bands": [
+        {
+          "from": 0,
+          "to": 400,
+          "tolerant": 97.17
+        },
+        {
+          "from": 400,
+          "to": 800,
+          "tolerant": 57.56
+        },
+        {
+          "from": 800,
+          "to": 1200,
+          "tolerant": 98.58
+        },
+        {
+          "from": 1200,
+          "to": 1600,
+          "tolerant": 98.73
+        },
+        {
+          "from": 1600,
+          "to": 2000,
+          "tolerant": 99.02
+        },
+        {
+          "from": 2000,
+          "to": 2400,
+          "tolerant": 62.59
+        },
+        {
+          "from": 2400,
+          "to": 2800,
+          "tolerant": 31.8
+        },
+        {
+          "from": 2800,
+          "to": 3200,
+          "tolerant": 57.04
+        },
+        {
+          "from": 3200,
+          "to": 3600,
+          "tolerant": 68.33
+        },
+        {
+          "from": 3600,
+          "to": 4000,
+          "tolerant": 68.41
+        },
+        {
+          "from": 4000,
+          "to": 4400,
+          "tolerant": 54.99
+        },
+        {
+          "from": 4400,
+          "to": 4800,
+          "tolerant": 32.75
+        },
+        {
+          "from": 4800,
+          "to": 5057,
+          "tolerant": 0
+        }
+      ],
+      "ignored": [],
+      "overflowPx": 0,
+      "axe": [],
+      "note": "Cookie bar hidden: it is a sticky bar at the bottom of the screen; the design draws it after the footer."
+    },
+    {
+      "name": "changelog-desktop",
+      "path": "/changelog",
+      "width": 1280,
+      "scale": 1,
+      "designHeight": 2756,
+      "buildHeight": 2732,
+      "comparedHeight": 2756,
+      "truncated": false,
+      "match": {
+        "strict": 89.2,
+        "tolerant": 93.39
+      },
+      "bands": [
+        {
+          "from": 0,
+          "to": 400,
+          "tolerant": 98.93
+        },
+        {
+          "from": 400,
+          "to": 800,
+          "tolerant": 98.9
+        },
+        {
+          "from": 800,
+          "to": 1200,
+          "tolerant": 99.51
+        },
+        {
+          "from": 1200,
+          "to": 1600,
+          "tolerant": 99.4
+        },
+        {
+          "from": 1600,
+          "to": 2000,
+          "tolerant": 89.8
+        },
+        {
+          "from": 2000,
+          "to": 2400,
+          "tolerant": 91.37
+        },
+        {
+          "from": 2400,
+          "to": 2756,
+          "tolerant": 73.64
+        }
+      ],
+      "ignored": [],
+      "overflowPx": 0,
+      "axe": [],
+      "note": "Cookie bar hidden: it is a sticky bar at the bottom of the screen; the design draws it after the footer."
+    },
+    {
+      "name": "changelog-phone",
+      "path": "/changelog",
+      "width": 402,
+      "scale": 1,
+      "designHeight": 3708,
+      "buildHeight": 4048,
+      "comparedHeight": 4048,
+      "truncated": false,
+      "match": {
+        "strict": 68.5,
+        "tolerant": 75.67
+      },
+      "bands": [
+        {
+          "from": 0,
+          "to": 400,
+          "tolerant": 98.25
+        },
+        {
+          "from": 400,
+          "to": 800,
+          "tolerant": 98.46
+        },
+        {
+          "from": 800,
+          "to": 1200,
+          "tolerant": 99.4
+        },
+        {
+          "from": 1200,
+          "to": 1600,
+          "tolerant": 99.09
+        },
+        {
+          "from": 1600,
+          "to": 2000,
+          "tolerant": 99.37
+        },
+        {
+          "from": 2000,
+          "to": 2400,
+          "tolerant": 99.39
+        },
+        {
+          "from": 2400,
+          "to": 2800,
+          "tolerant": 53.25
+        },
+        {
+          "from": 2800,
+          "to": 3200,
+          "tolerant": 63.75
+        },
+        {
+          "from": 3200,
+          "to": 3600,
+          "tolerant": 52.4
+        },
+        {
+          "from": 3600,
+          "to": 4000,
+          "tolerant": 2.45
+        },
+        {
+          "from": 4000,
+          "to": 4048,
+          "tolerant": 0
+        }
+      ],
+      "ignored": [],
+      "overflowPx": 0,
+      "axe": [],
+      "note": "Cookie bar hidden: it is a sticky bar at the bottom of the screen; the design draws it after the footer."
+    },
+    {
+      "name": "pricing-desktop",
+      "path": "/pricing",
+      "width": 1280,
+      "scale": 1,
+      "designHeight": 3032,
+      "buildHeight": 3045,
+      "comparedHeight": 3045,
+      "truncated": false,
+      "match": {
+        "strict": 90.35,
+        "tolerant": 94.99
+      },
+      "bands": [
+        {
+          "from": 0,
+          "to": 400,
+          "tolerant": 96.93
+        },
+        {
+          "from": 400,
+          "to": 800,
+          "tolerant": 98.03
+        },
+        {
+          "from": 800,
+          "to": 1200,
+          "tolerant": 97.16
+        },
+        {
+          "from": 1200,
+          "to": 1600,
+          "tolerant": 98.84
+        },
+        {
+          "from": 1600,
+          "to": 2000,
+          "tolerant": 99.25
+        },
+        {
+          "from": 2000,
+          "to": 2400,
+          "tolerant": 95.53
+        },
+        {
+          "from": 2400,
+          "to": 2800,
+          "tolerant": 96.01
+        },
+        {
+          "from": 2800,
+          "to": 3045,
+          "tolerant": 67.47
+        }
+      ],
+      "ignored": [],
+      "overflowPx": 0,
+      "axe": [],
+      "note": "Cookie bar hidden: it is a sticky bar at the bottom of the screen; the design draws it after the footer."
+    },
+    {
+      "name": "pricing-phone",
+      "path": "/pricing",
+      "width": 402,
+      "scale": 1,
+      "designHeight": 4319,
+      "buildHeight": 4488,
+      "comparedHeight": 4488,
+      "truncated": false,
+      "match": {
+        "strict": 81.15,
+        "tolerant": 88.68
+      },
+      "bands": [
+        {
+          "from": 0,
+          "to": 400,
+          "tolerant": 99.15
+        },
+        {
+          "from": 400,
+          "to": 800,
+          "tolerant": 99.02
+        },
+        {
+          "from": 800,
+          "to": 1200,
+          "tolerant": 95.89
+        },
+        {
+          "from": 1200,
+          "to": 1600,
+          "tolerant": 89.13
+        },
+        {
+          "from": 1600,
+          "to": 2000,
+          "tolerant": 95.5
+        },
+        {
+          "from": 2000,
+          "to": 2400,
+          "tolerant": 98.34
+        },
+        {
+          "from": 2400,
+          "to": 2800,
+          "tolerant": 98.88
+        },
+        {
+          "from": 2800,
+          "to": 3200,
+          "tolerant": 98.86
+        },
+        {
+          "from": 3200,
+          "to": 3600,
+          "tolerant": 86.48
+        },
+        {
+          "from": 3600,
+          "to": 4000,
+          "tolerant": 84.96
+        },
+        {
+          "from": 4000,
+          "to": 4400,
+          "tolerant": 48.74
+        },
+        {
+          "from": 4400,
+          "to": 4488,
+          "tolerant": 0
+        }
+      ],
+      "ignored": [],
+      "overflowPx": 0,
+      "axe": [],
+      "note": "Cookie bar hidden: it is a sticky bar at the bottom of the screen; the design draws it after the footer."
+    }
+  ],
+  "sweep": [
+    {
+      "path": "/",
+      "width": 320,
+      "overflowPx": 0,
+      "offenders": [
+        "span.absolute.-end-48.top-10",
+        "li.font-serif.text-h4.font-semibold",
+        "li.font-serif.text-h4.font-semibold",
+        "text.fill-surface/20.font-serif.text-mega",
+        "figure.flex.w-70.shrink-0"
+      ],
+      "file": "sweep/home-320.png"
+    },
+    {
+      "path": "/features",
+      "width": 320,
+      "overflowPx": 0,
+      "offenders": [
+        "pre.absolute.-inset-10.-rotate-12",
+        "text.fill-surface/20.font-serif.text-mega",
+        "span.absolute.-end-16.-top-16",
+        "g.fill-none.stroke-neutral-500/40"
+      ],
+      "file": "sweep/features-320.png"
+    },
+    {
+      "path": "/about",
+      "width": 320,
+      "overflowPx": 0,
+      "offenders": [
+        "span.absolute.-end-16.-top-16",
+        "g.fill-none.stroke-neutral-500/40"
+      ],
+      "file": "sweep/about-320.png"
+    },
+    {
+      "path": "/pricing",
+      "width": 320,
+      "overflowPx": 0,
+      "offenders": [
+        "span.absolute.-end-16.-top-16",
+        "g.fill-none.stroke-neutral-500/40"
+      ],
+      "file": "sweep/pricing-320.png"
+    },
+    {
+      "path": "/blog",
+      "width": 320,
+      "overflowPx": 0,
+      "offenders": [
+        "li",
+        "li",
+        "li",
+        "li",
+        "span.absolute.-end-16.-top-16"
+      ],
+      "file": "sweep/blog-320.png"
+    },
+    {
+      "path": "/changelog",
+      "width": 320,
+      "overflowPx": 0,
+      "offenders": [
+        "span.absolute.-end-16.-top-16",
+        "g.fill-none.stroke-neutral-500/40"
+      ],
+      "file": "sweep/changelog-320.png"
+    },
+    {
+      "path": "/demo",
+      "width": 320,
+      "overflowPx": 0,
+      "offenders": [],
+      "file": "sweep/demo-320.png"
+    },
+    {
+      "path": "/lp/automate",
+      "width": 320,
+      "overflowPx": 0,
+      "offenders": [
+        "span.absolute.-end-32.-top-20"
+      ],
+      "file": "sweep/lp-automate-320.png"
+    },
+    {
+      "path": "/components",
+      "width": 320,
+      "overflowPx": 0,
+      "offenders": [
+        "table.w-full.min-w-160.text-start"
+      ],
+      "file": "sweep/components-320.png"
+    },
+    {
+      "path": "/case-study",
+      "width": 320,
+      "overflowPx": 0,
+      "offenders": [
+        "table.w-full.min-w-160.text-start",
+        "table.w-full.min-w-120.text-start"
+      ],
+      "file": "sweep/case-study-320.png"
+    },
+    {
+      "path": "/",
+      "width": 375,
+      "overflowPx": 0,
+      "offenders": [
+        "span.absolute.-end-48.top-10",
+        "li.font-serif.text-h4.font-semibold",
+        "text.fill-surface/20.font-serif.text-mega",
+        "figure.flex.w-70.shrink-0",
+        "figure.flex.w-70.shrink-0"
+      ],
+      "file": "sweep/home-375.png"
+    },
+    {
+      "path": "/features",
+      "width": 375,
+      "overflowPx": 0,
+      "offenders": [
+        "pre.absolute.-inset-10.-rotate-12",
+        "text.fill-surface/20.font-serif.text-mega",
+        "span.absolute.-end-16.-top-16",
+        "g.fill-none.stroke-neutral-500/40"
+      ],
+      "file": "sweep/features-375.png"
+    },
+    {
+      "path": "/about",
+      "width": 375,
+      "overflowPx": 0,
+      "offenders": [
+        "span.absolute.-end-16.-top-16",
+        "g.fill-none.stroke-neutral-500/40"
+      ],
+      "file": "sweep/about-375.png"
+    },
+    {
+      "path": "/pricing",
+      "width": 375,
+      "overflowPx": 0,
+      "offenders": [
+        "span.absolute.-end-16.-top-16",
+        "g.fill-none.stroke-neutral-500/40"
+      ],
+      "file": "sweep/pricing-375.png"
+    },
+    {
+      "path": "/blog",
+      "width": 375,
+      "overflowPx": 0,
+      "offenders": [
+        "li",
+        "li",
+        "li",
+        "span.absolute.-end-16.-top-16",
+        "g.fill-none.stroke-neutral-500/40"
+      ],
+      "file": "sweep/blog-375.png"
+    },
+    {
+      "path": "/changelog",
+      "width": 375,
+      "overflowPx": 0,
+      "offenders": [
+        "span.absolute.-end-16.-top-16",
+        "g.fill-none.stroke-neutral-500/40"
+      ],
+      "file": "sweep/changelog-375.png"
+    },
+    {
+      "path": "/demo",
+      "width": 375,
+      "overflowPx": 0,
+      "offenders": [],
+      "file": "sweep/demo-375.png"
+    },
+    {
+      "path": "/lp/automate",
+      "width": 375,
+      "overflowPx": 0,
+      "offenders": [
+        "span.absolute.-end-32.-top-20"
+      ],
+      "file": "sweep/lp-automate-375.png"
+    },
+    {
+      "path": "/components",
+      "width": 375,
+      "overflowPx": 0,
+      "offenders": [
+        "table.w-full.min-w-160.text-start"
+      ],
+      "file": "sweep/components-375.png"
+    },
+    {
+      "path": "/case-study",
+      "width": 375,
+      "overflowPx": 0,
+      "offenders": [
+        "table.w-full.min-w-160.text-start",
+        "table.w-full.min-w-120.text-start"
+      ],
+      "file": "sweep/case-study-375.png"
+    },
+    {
+      "path": "/",
+      "width": 390,
+      "overflowPx": 0,
+      "offenders": [
+        "span.absolute.-end-48.top-10",
+        "li.font-serif.text-h4.font-semibold",
+        "text.fill-surface/20.font-serif.text-mega",
+        "figure.flex.w-70.shrink-0",
+        "figure.flex.w-70.shrink-0"
+      ],
+      "file": "sweep/home-390.png"
+    },
+    {
+      "path": "/features",
+      "width": 390,
+      "overflowPx": 0,
+      "offenders": [
+        "pre.absolute.-inset-10.-rotate-12",
+        "text.fill-surface/20.font-serif.text-mega",
+        "span.absolute.-end-16.-top-16",
+        "g.fill-none.stroke-neutral-500/40"
+      ],
+      "file": "sweep/features-390.png"
+    },
+    {
+      "path": "/about",
+      "width": 390,
+      "overflowPx": 0,
+      "offenders": [
+        "span.absolute.-end-16.-top-16",
+        "g.fill-none.stroke-neutral-500/40"
+      ],
+      "file": "sweep/about-390.png"
+    },
+    {
+      "path": "/pricing",
+      "width": 390,
+      "overflowPx": 0,
+      "offenders": [
+        "span.absolute.-end-16.-top-16",
+        "g.fill-none.stroke-neutral-500/40"
+      ],
+      "file": "sweep/pricing-390.png"
+    },
+    {
+      "path": "/blog",
+      "width": 390,
+      "overflowPx": 0,
+      "offenders": [
+        "li",
+        "li",
+        "li",
+        "span.absolute.-end-16.-top-16",
+        "g.fill-none.stroke-neutral-500/40"
+      ],
+      "file": "sweep/blog-390.png"
+    },
+    {
+      "path": "/changelog",
+      "width": 390,
+      "overflowPx": 0,
+      "offenders": [
+        "span.absolute.-end-16.-top-16",
+        "g.fill-none.stroke-neutral-500/40"
+      ],
+      "file": "sweep/changelog-390.png"
+    },
+    {
+      "path": "/demo",
+      "width": 390,
+      "overflowPx": 0,
+      "offenders": [],
+      "file": "sweep/demo-390.png"
+    },
+    {
+      "path": "/lp/automate",
+      "width": 390,
+      "overflowPx": 0,
+      "offenders": [
+        "span.absolute.-end-32.-top-20"
+      ],
+      "file": "sweep/lp-automate-390.png"
+    },
+    {
+      "path": "/components",
+      "width": 390,
+      "overflowPx": 0,
+      "offenders": [
+        "table.w-full.min-w-160.text-start"
+      ],
+      "file": "sweep/components-390.png"
+    },
+    {
+      "path": "/case-study",
+      "width": 390,
+      "overflowPx": 0,
+      "offenders": [
+        "table.w-full.min-w-160.text-start",
+        "table.w-full.min-w-120.text-start"
+      ],
+      "file": "sweep/case-study-390.png"
+    },
+    {
+      "path": "/",
+      "width": 402,
+      "overflowPx": 0,
+      "offenders": [
+        "span.absolute.-end-48.top-10",
+        "li.font-serif.text-h4.font-semibold",
+        "text.fill-surface/20.font-serif.text-mega",
+        "figure.flex.w-70.shrink-0",
+        "figure.flex.w-70.shrink-0"
+      ],
+      "file": "sweep/home-402.png"
+    },
+    {
+      "path": "/features",
+      "width": 402,
+      "overflowPx": 0,
+      "offenders": [
+        "pre.absolute.-inset-10.-rotate-12",
+        "text.fill-surface/20.font-serif.text-mega",
+        "span.absolute.-end-16.-top-16",
+        "g.fill-none.stroke-neutral-500/40"
+      ],
+      "file": "sweep/features-402.png"
+    },
+    {
+      "path": "/about",
+      "width": 402,
+      "overflowPx": 0,
+      "offenders": [
+        "span.absolute.-end-16.-top-16",
+        "g.fill-none.stroke-neutral-500/40"
+      ],
+      "file": "sweep/about-402.png"
+    },
+    {
+      "path": "/pricing",
+      "width": 402,
+      "overflowPx": 0,
+      "offenders": [
+        "span.absolute.-end-16.-top-16",
+        "g.fill-none.stroke-neutral-500/40"
+      ],
+      "file": "sweep/pricing-402.png"
+    },
+    {
+      "path": "/blog",
+      "width": 402,
+      "overflowPx": 0,
+      "offenders": [
+        "li",
+        "li",
+        "li",
+        "span.absolute.-end-16.-top-16",
+        "g.fill-none.stroke-neutral-500/40"
+      ],
+      "file": "sweep/blog-402.png"
+    },
+    {
+      "path": "/changelog",
+      "width": 402,
+      "overflowPx": 0,
+      "offenders": [
+        "span.absolute.-end-16.-top-16",
+        "g.fill-none.stroke-neutral-500/40"
+      ],
+      "file": "sweep/changelog-402.png"
+    },
+    {
+      "path": "/demo",
+      "width": 402,
+      "overflowPx": 0,
+      "offenders": [],
+      "file": "sweep/demo-402.png"
+    },
+    {
+      "path": "/lp/automate",
+      "width": 402,
+      "overflowPx": 0,
+      "offenders": [
+        "span.absolute.-end-32.-top-20"
+      ],
+      "file": "sweep/lp-automate-402.png"
+    },
+    {
+      "path": "/components",
+      "width": 402,
+      "overflowPx": 0,
+      "offenders": [
+        "table.w-full.min-w-160.text-start"
+      ],
+      "file": "sweep/components-402.png"
+    },
+    {
+      "path": "/case-study",
+      "width": 402,
+      "overflowPx": 0,
+      "offenders": [
+        "table.w-full.min-w-160.text-start",
+        "table.w-full.min-w-120.text-start"
+      ],
+      "file": "sweep/case-study-402.png"
+    },
+    {
+      "path": "/",
+      "width": 430,
+      "overflowPx": 0,
+      "offenders": [
+        "span.absolute.-end-48.top-10",
+        "li.font-serif.text-h4.font-semibold",
+        "text.fill-surface/20.font-serif.text-mega",
+        "figure.flex.w-70.shrink-0",
+        "figure.flex.w-70.shrink-0"
+      ],
+      "file": "sweep/home-430.png"
+    },
+    {
+      "path": "/features",
+      "width": 430,
+      "overflowPx": 0,
+      "offenders": [
+        "pre.absolute.-inset-10.-rotate-12",
+        "text.fill-surface/20.font-serif.text-mega",
+        "span.absolute.-end-16.-top-16",
+        "g.fill-none.stroke-neutral-500/40"
+      ],
+      "file": "sweep/features-430.png"
+    },
+    {
+      "path": "/about",
+      "width": 430,
+      "overflowPx": 0,
+      "offenders": [
+        "span.absolute.-end-16.-top-16",
+        "g.fill-none.stroke-neutral-500/40"
+      ],
+      "file": "sweep/about-430.png"
+    },
+    {
+      "path": "/pricing",
+      "width": 430,
+      "overflowPx": 0,
+      "offenders": [
+        "span.absolute.-end-16.-top-16",
+        "g.fill-none.stroke-neutral-500/40"
+      ],
+      "file": "sweep/pricing-430.png"
+    },
+    {
+      "path": "/blog",
+      "width": 430,
+      "overflowPx": 0,
+      "offenders": [
+        "li",
+        "li",
+        "li",
+        "span.absolute.-end-16.-top-16",
+        "g.fill-none.stroke-neutral-500/40"
+      ],
+      "file": "sweep/blog-430.png"
+    },
+    {
+      "path": "/changelog",
+      "width": 430,
+      "overflowPx": 0,
+      "offenders": [
+        "span.absolute.-end-16.-top-16",
+        "g.fill-none.stroke-neutral-500/40"
+      ],
+      "file": "sweep/changelog-430.png"
+    },
+    {
+      "path": "/demo",
+      "width": 430,
+      "overflowPx": 0,
+      "offenders": [],
+      "file": "sweep/demo-430.png"
+    },
+    {
+      "path": "/lp/automate",
+      "width": 430,
+      "overflowPx": 0,
+      "offenders": [
+        "span.absolute.-end-32.-top-20"
+      ],
+      "file": "sweep/lp-automate-430.png"
+    },
+    {
+      "path": "/components",
+      "width": 430,
+      "overflowPx": 0,
+      "offenders": [
+        "table.w-full.min-w-160.text-start"
+      ],
+      "file": "sweep/components-430.png"
+    },
+    {
+      "path": "/case-study",
+      "width": 430,
+      "overflowPx": 0,
+      "offenders": [
+        "table.w-full.min-w-160.text-start",
+        "table.w-full.min-w-120.text-start"
+      ],
+      "file": "sweep/case-study-430.png"
+    },
+    {
+      "path": "/",
+      "width": 768,
+      "overflowPx": 0,
+      "offenders": [
+        "span.absolute.-end-48.top-10",
+        "text.fill-surface/20.font-serif.text-mega",
+        "figure.flex.w-70.shrink-0",
+        "span.absolute.-end-16.-top-16",
+        "g.fill-none.stroke-neutral-500/40"
+      ],
+      "file": "sweep/home-768.png"
+    },
+    {
+      "path": "/features",
+      "width": 768,
+      "overflowPx": 0,
+      "offenders": [
+        "pre.absolute.-inset-10.-rotate-12",
+        "text.fill-surface/20.font-serif.text-mega",
+        "span.absolute.-end-16.-top-16",
+        "g.fill-none.stroke-neutral-500/40"
+      ],
+      "file": "sweep/features-768.png"
+    },
+    {
+      "path": "/about",
+      "width": 768,
+      "overflowPx": 0,
+      "offenders": [
+        "span.absolute.-end-16.-top-16",
+        "g.fill-none.stroke-neutral-500/40"
+      ],
+      "file": "sweep/about-768.png"
+    },
+    {
+      "path": "/pricing",
+      "width": 768,
+      "overflowPx": 0,
+      "offenders": [
+        "span.absolute.-end-16.-top-16",
+        "g.fill-none.stroke-neutral-500/40"
+      ],
+      "file": "sweep/pricing-768.png"
+    },
+    {
+      "path": "/blog",
+      "width": 768,
+      "overflowPx": 0,
+      "offenders": [
+        "span.absolute.-end-16.-top-16",
+        "g.fill-none.stroke-neutral-500/40"
+      ],
+      "file": "sweep/blog-768.png"
+    },
+    {
+      "path": "/changelog",
+      "width": 768,
+      "overflowPx": 0,
+      "offenders": [
+        "span.absolute.-end-16.-top-16",
+        "g.fill-none.stroke-neutral-500/40"
+      ],
+      "file": "sweep/changelog-768.png"
+    },
+    {
+      "path": "/demo",
+      "width": 768,
+      "overflowPx": 0,
+      "offenders": [],
+      "file": "sweep/demo-768.png"
+    },
+    {
+      "path": "/lp/automate",
+      "width": 768,
+      "overflowPx": 0,
+      "offenders": [
+        "span.absolute.-end-32.-top-20"
+      ],
+      "file": "sweep/lp-automate-768.png"
+    },
+    {
+      "path": "/components",
+      "width": 768,
+      "overflowPx": 0,
+      "offenders": [],
+      "file": "sweep/components-768.png"
+    },
+    {
+      "path": "/case-study",
+      "width": 768,
+      "overflowPx": 0,
+      "offenders": [],
+      "file": "sweep/case-study-768.png"
+    },
+    {
+      "path": "/",
+      "width": 1024,
+      "overflowPx": 0,
+      "offenders": [
+        "li.font-serif.text-h4.font-semibold",
+        "g.fill-none.stroke-neutral-500/40"
+      ],
+      "file": "sweep/home-1024.png"
+    },
+    {
+      "path": "/features",
+      "width": 1024,
+      "overflowPx": 0,
+      "offenders": [
+        "pre.absolute.-inset-10.-rotate-12",
+        "g.fill-none.stroke-neutral-500/40"
+      ],
+      "file": "sweep/features-1024.png"
+    },
+    {
+      "path": "/about",
+      "width": 1024,
+      "overflowPx": 0,
+      "offenders": [
+        "g.fill-none.stroke-neutral-500/40"
+      ],
+      "file": "sweep/about-1024.png"
+    },
+    {
+      "path": "/pricing",
+      "width": 1024,
+      "overflowPx": 0,
+      "offenders": [
+        "g.fill-none.stroke-neutral-500/40"
+      ],
+      "file": "sweep/pricing-1024.png"
+    },
+    {
+      "path": "/blog",
+      "width": 1024,
+      "overflowPx": 0,
+      "offenders": [
+        "g.fill-none.stroke-neutral-500/40"
+      ],
+      "file": "sweep/blog-1024.png"
+    },
+    {
+      "path": "/changelog",
+      "width": 1024,
+      "overflowPx": 0,
+      "offenders": [
+        "g.fill-none.stroke-neutral-500/40"
+      ],
+      "file": "sweep/changelog-1024.png"
+    },
+    {
+      "path": "/demo",
+      "width": 1024,
+      "overflowPx": 0,
+      "offenders": [],
+      "file": "sweep/demo-1024.png"
+    },
+    {
+      "path": "/lp/automate",
+      "width": 1024,
+      "overflowPx": 0,
+      "offenders": [
+        "span.absolute.-end-32.-top-20"
+      ],
+      "file": "sweep/lp-automate-1024.png"
+    },
+    {
+      "path": "/components",
+      "width": 1024,
+      "overflowPx": 0,
+      "offenders": [],
+      "file": "sweep/components-1024.png"
+    },
+    {
+      "path": "/case-study",
+      "width": 1024,
+      "overflowPx": 0,
+      "offenders": [],
+      "file": "sweep/case-study-1024.png"
+    },
+    {
+      "path": "/",
+      "width": 1280,
+      "overflowPx": 0,
+      "offenders": [
+        "g.fill-none.stroke-neutral-500/40"
+      ],
+      "file": "sweep/home-1280.png"
+    },
+    {
+      "path": "/features",
+      "width": 1280,
+      "overflowPx": 0,
+      "offenders": [
+        "pre.absolute.-inset-10.-rotate-12",
+        "g.fill-none.stroke-neutral-500/40"
+      ],
+      "file": "sweep/features-1280.png"
+    },
+    {
+      "path": "/about",
+      "width": 1280,
+      "overflowPx": 0,
+      "offenders": [
+        "g.fill-none.stroke-neutral-500/40"
+      ],
+      "file": "sweep/about-1280.png"
+    },
+    {
+      "path": "/pricing",
+      "width": 1280,
+      "overflowPx": 0,
+      "offenders": [
+        "g.fill-none.stroke-neutral-500/40"
+      ],
+      "file": "sweep/pricing-1280.png"
+    },
+    {
+      "path": "/blog",
+      "width": 1280,
+      "overflowPx": 0,
+      "offenders": [
+        "g.fill-none.stroke-neutral-500/40"
+      ],
+      "file": "sweep/blog-1280.png"
+    },
+    {
+      "path": "/changelog",
+      "width": 1280,
+      "overflowPx": 0,
+      "offenders": [
+        "g.fill-none.stroke-neutral-500/40"
+      ],
+      "file": "sweep/changelog-1280.png"
+    },
+    {
+      "path": "/demo",
+      "width": 1280,
+      "overflowPx": 0,
+      "offenders": [],
+      "file": "sweep/demo-1280.png"
+    },
+    {
+      "path": "/lp/automate",
+      "width": 1280,
+      "overflowPx": 0,
+      "offenders": [
+        "span.absolute.-end-32.-top-20"
+      ],
+      "file": "sweep/lp-automate-1280.png"
+    },
+    {
+      "path": "/components",
+      "width": 1280,
+      "overflowPx": 0,
+      "offenders": [],
+      "file": "sweep/components-1280.png"
+    },
+    {
+      "path": "/case-study",
+      "width": 1280,
+      "overflowPx": 0,
+      "offenders": [],
+      "file": "sweep/case-study-1280.png"
+    },
+    {
+      "path": "/",
+      "width": 1440,
+      "overflowPx": 0,
+      "offenders": [
+        "g.fill-none.stroke-neutral-500/40"
+      ],
+      "file": "sweep/home-1440.png"
+    },
+    {
+      "path": "/features",
+      "width": 1440,
+      "overflowPx": 0,
+      "offenders": [
+        "pre.absolute.-inset-10.-rotate-12",
+        "g.fill-none.stroke-neutral-500/40"
+      ],
+      "file": "sweep/features-1440.png"
+    },
+    {
+      "path": "/about",
+      "width": 1440,
+      "overflowPx": 0,
+      "offenders": [
+        "g.fill-none.stroke-neutral-500/40"
+      ],
+      "file": "sweep/about-1440.png"
+    },
+    {
+      "path": "/pricing",
+      "width": 1440,
+      "overflowPx": 0,
+      "offenders": [
+        "g.fill-none.stroke-neutral-500/40"
+      ],
+      "file": "sweep/pricing-1440.png"
+    },
+    {
+      "path": "/blog",
+      "width": 1440,
+      "overflowPx": 0,
+      "offenders": [
+        "g.fill-none.stroke-neutral-500/40"
+      ],
+      "file": "sweep/blog-1440.png"
+    },
+    {
+      "path": "/changelog",
+      "width": 1440,
+      "overflowPx": 0,
+      "offenders": [
+        "g.fill-none.stroke-neutral-500/40"
+      ],
+      "file": "sweep/changelog-1440.png"
+    },
+    {
+      "path": "/demo",
+      "width": 1440,
+      "overflowPx": 0,
+      "offenders": [],
+      "file": "sweep/demo-1440.png"
+    },
+    {
+      "path": "/lp/automate",
+      "width": 1440,
+      "overflowPx": 0,
+      "offenders": [
+        "span.absolute.-end-32.-top-20"
+      ],
+      "file": "sweep/lp-automate-1440.png"
+    },
+    {
+      "path": "/components",
+      "width": 1440,
+      "overflowPx": 0,
+      "offenders": [],
+      "file": "sweep/components-1440.png"
+    },
+    {
+      "path": "/case-study",
+      "width": 1440,
+      "overflowPx": 0,
+      "offenders": [],
+      "file": "sweep/case-study-1440.png"
+    },
+    {
+      "path": "/",
+      "width": 1920,
+      "overflowPx": 0,
+      "offenders": [
+        "text.fill-surface/20.font-serif.text-mega",
+        "g.fill-none.stroke-neutral-500/40"
+      ],
+      "file": "sweep/home-1920.png"
+    },
+    {
+      "path": "/features",
+      "width": 1920,
+      "overflowPx": 0,
+      "offenders": [
+        "pre.absolute.-inset-10.-rotate-12",
+        "text.fill-surface/20.font-serif.text-mega",
+        "g.fill-none.stroke-neutral-500/40"
+      ],
+      "file": "sweep/features-1920.png"
+    },
+    {
+      "path": "/about",
+      "width": 1920,
+      "overflowPx": 0,
+      "offenders": [
+        "g.fill-none.stroke-neutral-500/40"
+      ],
+      "file": "sweep/about-1920.png"
+    },
+    {
+      "path": "/pricing",
+      "width": 1920,
+      "overflowPx": 0,
+      "offenders": [
+        "g.fill-none.stroke-neutral-500/40"
+      ],
+      "file": "sweep/pricing-1920.png"
+    },
+    {
+      "path": "/blog",
+      "width": 1920,
+      "overflowPx": 0,
+      "offenders": [
+        "g.fill-none.stroke-neutral-500/40"
+      ],
+      "file": "sweep/blog-1920.png"
+    },
+    {
+      "path": "/changelog",
+      "width": 1920,
+      "overflowPx": 0,
+      "offenders": [
+        "g.fill-none.stroke-neutral-500/40"
+      ],
+      "file": "sweep/changelog-1920.png"
+    },
+    {
+      "path": "/demo",
+      "width": 1920,
+      "overflowPx": 0,
+      "offenders": [],
+      "file": "sweep/demo-1920.png"
+    },
+    {
+      "path": "/lp/automate",
+      "width": 1920,
+      "overflowPx": 0,
+      "offenders": [
+        "span.absolute.-end-32.-top-20"
+      ],
+      "file": "sweep/lp-automate-1920.png"
+    },
+    {
+      "path": "/components",
+      "width": 1920,
+      "overflowPx": 0,
+      "offenders": [],
+      "file": "sweep/components-1920.png"
+    },
+    {
+      "path": "/case-study",
+      "width": 1920,
+      "overflowPx": 0,
+      "offenders": [],
+      "file": "sweep/case-study-1920.png"
+    }
+  ]
+}
