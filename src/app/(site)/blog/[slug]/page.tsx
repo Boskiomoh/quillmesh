@@ -1,7 +1,9 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
+import { Suspense } from "react";
 
 import Article from "@/components/blog/article";
+import PageFallback from "@/components/ui/page-fallback";
 import { cachedSanity } from "@/sanity/live";
 import { postQuery, postSlugsQuery, settingsQuery } from "@/sanity/queries";
 
@@ -30,7 +32,17 @@ export async function generateMetadata({
   };
 }
 
-export default async function PostPage({ params }: PageProps<"/blog/[slug]">) {
+export default function PostPage({ params }: PageProps<"/blog/[slug]">) {
+  return (
+    <Suspense fallback={<PageFallback />}>
+      <PostContent params={params} />
+    </Suspense>
+  );
+}
+
+async function PostContent({
+  params,
+}: Pick<PageProps<"/blog/[slug]">, "params">) {
   const { slug } = await params;
   const [{ data }, { data: settings }] = await Promise.all([
     cachedSanity({

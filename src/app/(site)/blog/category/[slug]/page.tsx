@@ -1,7 +1,9 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
+import { Suspense } from "react";
 
 import Blog from "@/components/blog";
+import PageFallback from "@/components/ui/page-fallback";
 import { cachedSanity } from "@/sanity/live";
 import { blogQuery, settingsQuery } from "@/sanity/queries";
 
@@ -17,9 +19,19 @@ export async function generateStaticParams() {
   return data.categories.map((category) => ({ slug: category.slug ?? "" }));
 }
 
-export default async function BlogCategoryPage({
+export default function BlogCategoryPage({
   params,
 }: PageProps<"/blog/category/[slug]">) {
+  return (
+    <Suspense fallback={<PageFallback />}>
+      <BlogCategoryContent params={params} />
+    </Suspense>
+  );
+}
+
+async function BlogCategoryContent({
+  params,
+}: Pick<PageProps<"/blog/category/[slug]">, "params">) {
   const { slug } = await params;
   const [{ data: content }, { data: settings }] = await Promise.all([
     cachedSanity({

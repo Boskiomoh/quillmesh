@@ -1,7 +1,9 @@
 import type { Metadata } from "next";
 import { notFound, redirect } from "next/navigation";
+import { Suspense } from "react";
 
 import Blog, { postsPerPage } from "@/components/blog";
+import PageFallback from "@/components/ui/page-fallback";
 import { cachedSanity } from "@/sanity/live";
 import { blogQuery, settingsQuery } from "@/sanity/queries";
 
@@ -20,9 +22,19 @@ export async function generateStaticParams() {
   }));
 }
 
-export default async function BlogListPage({
+export default function BlogListPage({
   params,
 }: PageProps<"/blog/page/[page]">) {
+  return (
+    <Suspense fallback={<PageFallback />}>
+      <BlogListContent params={params} />
+    </Suspense>
+  );
+}
+
+async function BlogListContent({
+  params,
+}: Pick<PageProps<"/blog/page/[page]">, "params">) {
   const { page } = await params;
   const pageNumber = Number(page);
   if (pageNumber === 1) redirect("/blog");

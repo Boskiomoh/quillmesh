@@ -1,7 +1,9 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
+import { Suspense } from "react";
 
 import Landing from "@/components/landing";
+import PageFallback from "@/components/ui/page-fallback";
 import { isVariant, variants } from "@/lib/variant";
 import { cachedSanity } from "@/sanity/live";
 import { landingExtrasQuery, landingQuery } from "@/sanity/queries";
@@ -15,9 +17,19 @@ export function generateStaticParams() {
   return variants.map((variant) => ({ variant }));
 }
 
-export default async function LandingPage({
+export default function LandingPage({
   params,
 }: PageProps<"/lp/automate/[variant]">) {
+  return (
+    <Suspense fallback={<PageFallback />}>
+      <LandingContent params={params} />
+    </Suspense>
+  );
+}
+
+async function LandingContent({
+  params,
+}: Pick<PageProps<"/lp/automate/[variant]">, "params">) {
   const { variant } = await params;
   if (!isVariant(variant)) notFound();
 

@@ -1,7 +1,9 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
+import { Suspense } from "react";
 
 import Badge from "@/components/ui/badge";
+import PageFallback from "@/components/ui/page-fallback";
 import RichText from "@/components/ui/rich-text";
 import { cachedSanity } from "@/sanity/live";
 import { legalQuery, legalSlugsQuery } from "@/sanity/queries";
@@ -35,9 +37,17 @@ export async function generateMetadata({
   return { title: data?.title ?? "Legal" };
 }
 
-export default async function LegalPage({
+export default function LegalPage({ params }: PageProps<"/legal/[slug]">) {
+  return (
+    <Suspense fallback={<PageFallback />}>
+      <LegalContent params={params} />
+    </Suspense>
+  );
+}
+
+async function LegalContent({
   params,
-}: PageProps<"/legal/[slug]">) {
+}: Pick<PageProps<"/legal/[slug]">, "params">) {
   const { slug } = await params;
   const { data } = await cachedSanity({
     query: legalQuery,
