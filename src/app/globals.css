@@ -1,0 +1,159 @@
+@import "tailwindcss";
+
+@theme {
+  --color-*: initial;
+  --color-white: #ffffff;
+  --color-transparent: transparent;
+  --color-current: currentColor;
+
+  --color-primary-50: #ebf2fd;
+  --color-primary-100: #d1e0fa;
+  --color-primary-200: #a3c1f5;
+  --color-primary-300: #75a2f0;
+  --color-primary-400: #4783eb;
+  --color-primary-500: #1a56db;
+  --color-primary-600: #1447bb;
+  --color-primary-700: #10399b;
+  --color-primary-800: #0c2b7b;
+  --color-primary-900: #081d5b;
+
+  --color-secondary-50: #fff8e5;
+  --color-secondary-400: #e2a92b;
+  --color-secondary-500: #f4a016;
+  --color-secondary-700: #90620a;
+
+  --color-tertiary-50: #f0fdfa;
+  --color-tertiary-100: #ccfbf1;
+  --color-tertiary-200: #99f6e4;
+  --color-tertiary-300: #5eead4;
+  --color-tertiary-400: #2dd4bf;
+  --color-tertiary-500: #0d9488;
+  --color-tertiary-600: #0b7b72;
+  --color-tertiary-700: #0f766e;
+  --color-tertiary-800: #115e59;
+  --color-tertiary-900: #134e4a;
+
+  --color-neutral-50: #fcfcfd;
+  --color-neutral-100: #f2f1ef;
+  --color-neutral-200: #e4e3df;
+  --color-neutral-300: #cbc9c2;
+  --color-neutral-400: #a09e97;
+  --color-neutral-500: #706e67;
+  --color-neutral-600: #514f4a;
+  --color-neutral-700: #333230;
+  --color-neutral-800: #1f1e1c;
+  --color-neutral-900: #131210;
+
+  --color-green-50: #edfaf3;
+  --color-green-500: #1b6f4a;
+  --color-green-700: #145a3b;
+  --color-yellow-50: #fef6e7;
+  --color-yellow-500: #92510a;
+  --color-yellow-700: #7a4308;
+  --color-blue-50: #ebf2fd;
+  --color-blue-500: #1455a3;
+  --color-blue-700: #0f4185;
+  --color-red-50: #fef0f0;
+  --color-red-500: #be1c1c;
+  --color-red-700: #9a1616;
+
+  --color-canvas: #f5f7f9;
+  --color-surface: #fcfcfd;
+  --color-subtle: #f2f1ef;
+  --color-line: #e4e3df;
+  --color-line-strong: #b6b6b6;
+  --color-ink: #131210;
+  --color-body: #514f4a;
+  --color-muted: #706e67;
+  --color-brand: #1a56db;
+  --color-brand-strong: #10399b;
+  --color-panel: #0e0f11;
+  --color-panel-end: #23252a;
+
+  --text-display: 5rem;
+  --text-display--line-height: 5.5rem;
+  --text-display--letter-spacing: -0.1rem;
+  --text-display-sm: 3.5rem;
+  --text-display-sm--line-height: 3.85rem;
+  --text-display-sm--letter-spacing: -0.07rem;
+  --text-mega: 6rem;
+  --text-mega--line-height: 7.2rem;
+  --text-h1: 2.5rem;
+  --text-h1--line-height: 3rem;
+  --text-h2: 2.25rem;
+  --text-h2--line-height: 2.925rem;
+  --text-h3: 1.75rem;
+  --text-h3--line-height: 2.1rem;
+  --text-h4: 1.5rem;
+  --text-h4--line-height: 1.95rem;
+  --text-h5: 1.25rem;
+  --text-h5--line-height: 1.625rem;
+  --text-h6: 1rem;
+  --text-h6--line-height: 1.3rem;
+  --text-body-xl: 1.25rem;
+  --text-body-xl--line-height: 1.875rem;
+  --text-body-lg: 1.125rem;
+  --text-body-lg--line-height: 1.6875rem;
+  --text-body-md: 1rem;
+  --text-body-md--line-height: 1.75rem;
+  --text-body-sm: 0.875rem;
+  --text-body-sm--line-height: 1.53125rem;
+  --text-body-xs: 0.75rem;
+  --text-body-xs--line-height: 1.3125rem;
+  --text-button-lg: 1rem;
+  --text-button-lg--line-height: 1.5rem;
+  --text-button-md: 0.875rem;
+  --text-button-md--line-height: 1.1375rem;
+  --text-button-sm: 0.75rem;
+  --text-button-sm--line-height: 1.125rem;
+
+  --tracking-eyebrow: 0.2em;
+
+  --radius-control: 0.5rem;
+  --radius-card: 0.75rem;
+  --radius-panel: 1.125rem;
+  --radius-feature: 2rem;
+
+  --shadow-card: 0 2px 10px 1px rgb(2 6 23 / 0.1);
+  --shadow-glow: 0 0 15px 5px rgb(26 86 219 / 0.1);
+  --shadow-raise: 0 4px 8px 0 rgb(2 6 23 / 0.15);
+  --shadow-pop: 0 8px 16px 0 rgb(2 6 23 / 0.2);
+
+  --container-page: 80rem;
+
+  --breakpoint-xs: 25.125rem;
+
+  --blur-glow: 120px;
+}
+
+@theme inline {
+  --font-sans: var(--font-dm-sans), ui-sans-serif, system-ui, sans-serif;
+  --font-serif: var(--font-newsreader), ui-serif, Georgia, serif;
+}
+
+@layer base {
+  html {
+    -webkit-text-size-adjust: 100%;
+  }
+
+  body {
+    background: var(--color-canvas);
+    color: var(--color-ink);
+    font-family: var(--font-sans);
+  }
+
+  :focus-visible {
+    outline: 2px solid var(--color-brand);
+    outline-offset: 2px;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    *,
+    ::before,
+    ::after {
+      animation-duration: 0.01ms !important;
+      transition-duration: 0.01ms !important;
+      scroll-behavior: auto !important;
+    }
+  }
+}
