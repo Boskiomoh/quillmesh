@@ -15,7 +15,8 @@ A B2B SaaS marketing site built from a Figma kit, with three things clients ask 
    30 days and rewrites `/lp/automate` to a prerendered page. A pre-lander (`/go/automate`) feeds it. CTA
    clicks, form sends and landing views are recorded after cookie consent; `/case-study` shows the counts.
 
-Live: _added after deploy_ · Report: `/case-study` and `/fidelity/report.html`
+Live: **https://quillmesh.vercel.app** · How it was built: https://quillmesh.vercel.app/case-study ·
+Fidelity report: https://quillmesh.vercel.app/fidelity/report.html
 
 ## Stack
 
@@ -44,7 +45,15 @@ article body is Quillmesh's own; the stock code photos are redrawn in code.
 - **Accessibility:** axe, 0 violations on all 14 measured pages; three kit colours adjusted for WCAG AA.
 - **Responsive:** 100 screenshots across 10 routes from 320px to 1920px, 0 with sideways scroll.
 - **Tests:** 23 unit tests, 56 end-to-end tests (desktop and phone widths), all passing.
-- **Lighthouse:** _measured after deploy_.
+- **Lighthouse** (PageSpeed Insights, Lighthouse 13.5, 29 October 2026, production):
+
+  | Page                                                                                                                        | Device  | Performance | Accessibility | Best Practices | SEO | LCP   |
+  | --------------------------------------------------------------------------------------------------------------------------- | ------- | ----------- | ------------- | -------------- | --- | ----- |
+  | [Home](https://pagespeed.web.dev/analysis/https-quillmesh-vercel-app/cq8enrkzcr?form_factor=mobile)                         | Mobile  | 89          | 100           | 100            | 100 | 3.8 s |
+  | [Home](https://pagespeed.web.dev/analysis/https-quillmesh-vercel-app/cq8enrkzcr?form_factor=desktop)                        | Desktop | 99          | 100           | 100            | 100 | 0.8 s |
+  | [A/B landing page](https://pagespeed.web.dev/analysis/https-quillmesh-vercel-app-lp-automate/eke6mqdq3z?form_factor=mobile) | Mobile  | 80          | 100           | 96             | 60  | 5.1 s |
+
+  The landing page's SEO score is the deliberate `noindex` on the A/B variants.
 
 ## Running it
 
