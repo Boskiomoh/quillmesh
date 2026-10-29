@@ -1,0 +1,10 @@
+.next
+node_modules
+public/fidelity
+evidence
+design
+scripts/seed.ndjson
+scripts/photos
+package-lock.json
+src/sanity/types.ts
+schema.json
